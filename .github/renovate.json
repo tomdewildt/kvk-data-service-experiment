@@ -1,0 +1,7 @@
+{
+  "extends": ["config:base"],
+  "dependencyDashboard": false,
+  "pip_requirements": {
+    "fileMatch": ["(^|/)pyproject\\.toml$"]
+  }
+}
