@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Experiment with the KVK Data Service SOAP API"
 requires-python = ">=3.12"
 dependencies = [
-    "zeep>=4.3.1",
+    "zeep>=4.3.3",
     "pydantic>=2.11.0",
     "pydantic-settings>=2.8.0",
     "loguru>=0.7.3",
@@ -15,7 +15,7 @@ dependencies = [
 dev = [
     "lxml-stubs>=0.5.1",
     "pyright>=1.1.400",
-    "pytest>=9.0.2",
+    "pytest>=9.0.3",
     "ruff>=0.15.6",
 ]
 
